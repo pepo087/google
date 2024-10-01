@@ -1,0 +1,121 @@
+#up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  font-family: arial, sans-serif;
+}
+#logo img {
+  height: 24px;
+  width: 74px;
+}
+#buttons {
+  display: flex;
+}
+
+#gsearch {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+}
+
+.appbar {
+  margin: 25px 35px;
+  display: auto;
+}
+div #h1 {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 15px; /* Aggiungi spazio sotto la riga grigia */
+  display: flow-root;
+  color: #d93025;
+  font-size: 20px;
+}
+
+form {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+}
+div.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+label#allWords, label#exactWord, label#anyWords, label#noneWords {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  width: 250px; /* Imposta una larghezza fissa per le etichette */
+}
+
+input:not(#advsearch) {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 30%;
+}
+
+#advsearch {
+  padding: 1px 18px;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  margin: 10px 0;
+  text-align: right; /* Allinea a destra */
+  height: 30px;
+}
+
+div.form-group2 {
+
+  text-align: right;
+  width: 46%; /* Occupa l'intera larghezza del contenitore */
+ 
+}
+
+
+label.allWords,
+label.exactWord,
+label.anyWords,
+label.noneWords {
+  color: #555;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+  padding: 15px;
+  display: flex;
+
+
+  width: 300px; /* Imposta una larghezza fissa per le etichette */
+
+  align-items: center;
+
+  padding-left: 5px;
+
+}
+span.allWords,
+span.exactWord,
+span.anyWords,
+span.noneWords {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}

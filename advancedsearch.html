@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="stylesheet" href="advanced.css" />
+    <title>Google Advanced Searc</title>
+ 
+    <link rel="shortcut icon" href=" https://www.google.com/favicon.ico">
+    
+  </head>
+  <div id="up">
+    <div id="logo">
+      <img
+        src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"
+      />
+    </div>
+    <div id="buttons">
+      <a href="index.html">
+        <button id="gsearch" type="button">Index</button>
+      </a>
+      <a href="imagesearch.html">
+        <button id="gsearch" type="button">Image search</button>
+      </a>
+    </div>
+  </div>
+  <body>
+   
+
+    <div class="appbar">
+      <element id="h1">Google Advanced Search</element>
+    </div>
+    
+    <form action="https://www.google.com/search" method="GET">
+    
+        Trova pagine web che <br> contengono..
+    </br>
+      <div class="form-group">
+        <label id="allWords">Find pages with… “all these words:”</label>
+        <input type="text" name="as_q" id="allWords" />
+        <label class="allWords">Digita le parole importanti:  <span class="allWords">labrador retriever nero</span>   </label>
+
+      </div>
+  
+      <div class="form-group">
+        <label id="exactWord">Find pages with… “this exact word or phrase:”</label>
+        <input type="text" name="as_epq" id="exactWord"  />
+        <label class="exactWord">Racchiudi le parole esatte tra virgolette:  <span class="exactWord">"labrador retriever"</span>   </label>
+      </div>
+  
+      <div class="form-group">
+        <label id="anyWords">Find pages with… “any of these words:”</label>
+        <input type="text" name="as_oq" id="anyWords"  />
+        <label class="anyWords">Digita <span class="anyWords">OR</span> tra tutte le parole che vuoi:  <span class="anyWords">miniatura OR standard</span>   </label>
+      </div>
+  
+      <div class="form-group">
+        <label id="noneWords">Find pages with… “none of these words:”</label>
+        <input type="text" name="as_eq" id="noneWords"  />
+        <label class="noneWords">Anteponi il segno - (meno) alle parole da escludere:  <span class="noneWords">-roditore, - "Jack Russell"</span>   </label>
+        </div>
+        <div class="form-group2" >
+      <input id="advsearch" type="submit" value="Advanced Search" />
+    </div>
+  </form>
+
+  </body>
+</html>
